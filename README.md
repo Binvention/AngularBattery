@@ -3,4 +3,4 @@ a simple battery like visual representation of the battery manager using angular
 uses no scoped varaibles to prevent conflicts 
 
 Installation
-To use this add the battery.js to your angular dependency and call the appBattery directive in your html
+add "appBattery" to your angular module dependency. add the battery.js to the script files in your html. add a <app-battery></app-battery> to where you want the battery to show up. 
