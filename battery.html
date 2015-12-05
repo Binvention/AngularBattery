@@ -1,0 +1,8 @@
+<div id="battery-status-bar">
+     <div class="battery" title="{{battery.bat.getLevel()+'\n'+battery.bat.time()}}">
+        <div class="power">
+            <div class="level" ng-style='{width:battery.bat.getLevel()}'></div>
+        </div>
+    </div>
+	<div ng-show='battery.bat.level<=.15&& !battery.bat.charging'>Battery Low</div>
+</div>
