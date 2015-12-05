@@ -1,0 +1,35 @@
+#battery-status-bar {
+    display: block;
+    margin-top: 0.5em;
+}
+.battery {
+text-align:right;
+float:right;
+color:#ffffff;
+width: 2em;
+height:1em;
+background-color:#000000;
+border:.1em solid #000000;
+border-radius:.2em;
+margin-left:1em;
+margin-right:1em;
+}
+.battery::after{
+position:relative;
+float: right;
+left: .2em;
+bottom: 75%;
+content:'';
+display:inline;
+width: 0.15em;
+height: 0.4em;
+background-color:#000000;
+border:.1em solid #000000;
+}
+.battery .power{
+height:inherit;
+}
+.battery .level {
+    background: green;
+	height:inherit;
+}
