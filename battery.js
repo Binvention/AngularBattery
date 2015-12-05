@@ -3,7 +3,7 @@ var app=angular.module('appBattery',[]);
 app.directive('appBattery',[function(){
 return {
 restrict:'E',
-templateUrl:'battery/battery.html',
+templateUrl:'AngularBattery/battery.html',
 scope:{},
 controller:['$window','$scope',function($window,$scope){
 	this.bat={};
